@@ -1,0 +1,70 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background : rgba(121, 127, 209, 0.3);
+}
+header{
+    text-align: center;
+
+}
+#search {
+    margin-top: 50px;
+    text-align : center;
+    margin-left : 300px;
+    margin-right : 300px;
+    border-radius : 0.7em;
+    
+}
+
+#searchField, #searching {
+    height : 40px;
+    background : rgba(121, 127, 209, 0.3);
+    font-weight : bold;
+    font-size : 15px;
+    border-radius: 0.5em;
+    border : none;
+    text-align : left;
+    margin-top : 10px;
+}
+
+#cityInf {
+    width: 77%;
+    padding-left : 0.3em;
+    padding-right : 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 2em;
+    text-align : left;
+    background : rgba(121, 127, 209, 0.3);
+    box-shadow: 3px 5px rgba(79, 114, 124, 0.651);
+    font-size : 15px;
+    border-radius : 0.5em;
+}
+
+#cityInf > h3 {
+    font-size : 2px;
+}
+
+#meteo {
+    display : flex;
+    flex-wrap: wrap;
+    flex : 1 1 auto ;
+
+
+}
+
+.divBlock {
+    margin-left : auto;
+    margin-right : auto;
+    margin-bottom : 2em;
+    margin-top : 2em;
+    border-radius : 2em;
+    width : 30vw;
+    border : 0.5px solid black;
+    text-align : center;
+    box-shadow: 5px 10px rgba(79, 114, 124, 0.651);
+    background: rgba(121, 127, 209, 0.3);
+
+
+}
+
+
